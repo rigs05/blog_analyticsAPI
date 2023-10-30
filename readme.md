@@ -1,10 +1,10 @@
 @BLOG_ANALYTICS API
 
--> Modules used: Nodemon, Express, Axios, Lodash
+# Modules used: Nodemon, Express, Axios, Lodash
 
--> app.js : root file containing all the routes and server establishment.
+# app.js : root file containing all the routes and server establishment.
 
--> routes/analytics.js :
+# routes/analytics.js :
     
     * fetchData : Middleware function fetching the data from URL by making request using AXIOS and including the headers fetched from req.headers
 
