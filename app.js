@@ -1,14 +1,10 @@
 const express = require('express');
 const app = express();
-// const dbConnect = require('./database/dbConnect.js');
 const analytics = require('./routes/analytics');
 const PORT = 5000;
 
 async function serverStart() {
     try {
-        // await dbConnect();
-        // console.log("Successfully Connected to Database.");
-
         app.use(express.urlencoded({ extended: false }));
         app.use(express.json());
 

@@ -60,7 +60,7 @@ router.get('/blog-stats', fetchData, async (req, res) => {
         // Returning all the required data in JSON format
         res.status(200).json({
             'Total Number of Blogs': sizeOfBlogs,
-            'Title of Longest Blog': longestTitle,
+            'Longest Title': longestTitle,
             'Number of Blogs having (privacy) Keyword': privacyTitles,
             'Size of Unique Blog Titles': sizeofTitles,
             'Array of Unique Blog Titles': uniqueTitles
